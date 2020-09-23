@@ -1,0 +1,27 @@
+/* cssrules */
+/* to find selectors search "find_tag/class/id" */
+
+/* Class */
+
+.para {
+  color: turquoise;
+}
+
+/* id */
+
+#imagesteve {
+  width: 100%;
+}
+
+#top {
+  background: lightgray;
+  color: rgba(32, 32, 32, 0.6);
+  padding: 20px;
+  width: 100%;
+}
+
+/* tags */
+
+div {
+  border: 3px solid green;
+}
