@@ -1,5 +1,4 @@
 /* cssrules */
-/* to find selectors search "find_tag/class/id" */
 /* universal */
 * {
   margin: 0;
@@ -13,30 +12,35 @@
 }
 .imagesteve {
   background: url(https://cdn.osxdaily.com/wp-content/uploads/2009/09/steve-jobs-picture-dianne-walker-black-and-white-610x407.jpg);
-  color: hsl(0, 0%, 96%, 0.6);
   width: 100%;
-  margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
   height: 100vh;
   background-size: cover;
   background-position: center;
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: -1;
+}
+
+.title1 {
+  font-size: 200%;
+  padding-top: 7%;
+  -webkit-text-stroke: 0.25px black;
+  color: whitesmoke;
+}
+.h1 {
+  font-size: 1400%;
+  color: hsl(0, 0%, 96%, 0.8);
+  align-self: center;
+  margin-top: 40%;
+  width: 100%;
+  -webkit-text-stroke: 0.25px black;
 }
 
 /* id */
-
-#p1 {
-  font-size: 200%;
-  position: relative;
-  text-align: center;
-}
-
-#h1 {
-  font-size: 1400%;
-}
 
 #top {
   background: lightgray;
@@ -46,7 +50,6 @@
   font-weight: lighter;
   padding: 0 0 2vh 0;
 }
-
 /* tags */
 body {
   background: whitesmoke;
