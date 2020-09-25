@@ -1,27 +1,58 @@
 /* cssrules */
 /* to find selectors search "find_tag/class/id" */
-
+/* universal */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* Class */
 
 .para {
   color: turquoise;
 }
+.imagesteve {
+  background: url(https://cdn.osxdaily.com/wp-content/uploads/2009/09/steve-jobs-picture-dianne-walker-black-and-white-610x407.jpg);
+  color: hsl(0, 0%, 96%, 0.6);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 
 /* id */
 
-#imagesteve {
-  width: 100%;
+#p1 {
+  font-size: 200%;
+  position: relative;
+  text-align: center;
+}
+
+#h1 {
+  font-size: 1400%;
 }
 
 #top {
   background: lightgray;
   color: rgba(32, 32, 32, 0.6);
-  padding: 20px;
+  height: 10vh;
   width: 100%;
+  font-weight: lighter;
+  padding: 0 0 2vh 0;
 }
 
 /* tags */
+body {
+  background: whitesmoke;
+  box-sizing: border-box;
+}
 
-div {
-  border: 3px solid green;
+p {
+  padding: 2vh;
 }
